@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Mon Apr 03 18:15:23 2017
+Project   :  F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm
+Component :  demo_top
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_top/demo_top.v
+
+Stimulus files for all Simulation tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_top/subsystem.bfm
+

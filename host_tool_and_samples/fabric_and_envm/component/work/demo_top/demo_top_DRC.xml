@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>demo_top</header>
+  <drc>
+    <status>\\idm\captures\pc\11_5_0_24_bill\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Out-of-date Instance</message>
+    <detail>Component definition is not consistent for instance demo_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/demo_top/instances/demo_0</crossprobe>
+  </drc>
+</drcreport>

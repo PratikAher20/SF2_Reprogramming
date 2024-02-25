@@ -1,0 +1,20 @@
+Software Version: 11.8.0.26
+Opened 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\designer\demo_top\demo_top_fp\demo_top.pro'
+The 'open_project' command succeeded.
+PDB file 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\designer\demo_top\ecdae2ff-2709-4cbd-a709-dcbd2709dcbd.pdb' has been loaded successfully.
+DESIGN : demo_top;  CHECKSUM : 6120;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\designer\demo_top\export\demo_top.stp'; file programs Fabric and eNVM.
+Fabric component digest: fa151f27d1e6024d6f01c0ad7e1767ab146d113dd9e28feb64de542dd0286015
+eNVM_0 component digest: 96dc090902de6032a35f092b1f7753420747df28f8afe67daf1481341199f10c
+Finished: Mon Apr 03 20:34:49 2017 (Elapsed time 00:00:56)
+
+The 'export_single_stapl' command succeeded.
+Successfully exported SPI master file: 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\designer\demo_top\export\demo_top.spi'; file programs Fabric and eNVM.
+Finished: Mon Apr 03 20:35:36 2017 (Elapsed time 00:00:47)
+
+The 'export_spi_master' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

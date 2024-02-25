@@ -1,0 +1,92 @@
+#OPTIONS:"|-layerid|0|-orig_srs|F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\synthesis\\synwork\\demo_top_comp.srs|-top|demo_top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\synthesis\\|-I|\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib|-v2001|-devicelib|\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\bin64\\c_ver.exe":1480007424
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\generic\\smartfusion2.v":1487970428
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\hypermods.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\umr_capim.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\scemi_objects.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\scemi_pipes.svh":1487970586
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\hdl\\blink1.v":1376799373
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\Actel\\SgCore\\TAMPER2\\2.1.200\\tamper_comps.v":1424484705
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\Dev_Restart_after_ISP_blk\\TAMPER2_0\\Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2.v":1425344524
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\Dev_Restart_after_ISP_blk\\TPSRAM_0\\Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM.v":1425344530
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\hdl\\Ram_interface.v":1433625487
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\Dev_Restart_after_ISP_blk\\Dev_Restart_after_ISP_blk.v":1425344532
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1489489213
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1489489213
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo\\CCC_0\\demo_CCC_0_FCCC.v":1491225762
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1489489214
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo\\FABOSC_0\\demo_FABOSC_0_OSC.v":1491225764
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo_MSS\\demo_MSS_syn.v":1491225758
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo_MSS\\demo_MSS.v":1491225759
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo\\demo.v":1491225764
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\LSRAM_Workaround\\component\\work\\demo_top\\demo_top.v":1425344533
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v" verilog
+1			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\TAMPER2\2.1.200\tamper_comps.v" verilog
+2			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TAMPER2_0\Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2.v" verilog
+3			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TPSRAM_0\Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM.v" verilog
+4			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v" verilog
+5			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v" verilog
+6			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+7			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+8			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\CCC_0\demo_CCC_0_FCCC.v" verilog
+9			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+10			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v" verilog
+11			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS_syn.v" verilog
+12			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS.v" verilog
+13			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\demo.v" verilog
+14			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_top\demo_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 -1
+5 4 2 3
+6 -1
+7 6
+8 -1
+9 -1
+10 9
+11 -1
+12 11
+13 8 7 12 10
+14 0 13 5
+#Dependency Lists(Users Of)
+0 14
+1 2
+2 5
+3 5
+4 5
+5 14
+6 7
+7 13
+8 13
+9 10
+10 13
+11 12
+12 13
+13 14
+14 -1
+#Design Unit to File Association
+module work BLINK_LED 0
+module work TAMPER 1
+module work Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2 2
+module work Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM 3
+module work Ram_intferface 4
+module work Dev_Restart_after_ISP_blk 5
+module work coreresetp_pcie_hotreset 6
+module work CoreResetP 7
+module work demo_CCC_0_FCCC 8
+module work RCOSC_1MHZ 9
+module work RCOSC_25_50MHZ 9
+module work XTLOSC 9
+module work RCOSC_1MHZ_FAB 9
+module work RCOSC_25_50MHZ_FAB 9
+module work XTLOSC_FAB 9
+module work demo_FABOSC_0_OSC 10
+module work MSS_075 11
+module work demo_MSS 12
+module work demo 13
+module work demo_top 14

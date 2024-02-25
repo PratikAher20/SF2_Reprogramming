@@ -1,0 +1,120 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 11.8.0.26
+
+# Design Name: demo_top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Mon Apr 03 18:17:15 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io LED1 -DIRECTION OUTPUT -pinname G7 -fixed no
+set_io LED2 -DIRECTION OUTPUT -pinname F3 -fixed no
+set_io LED3 -DIRECTION OUTPUT -pinname F4 -fixed no
+set_io LED4 -DIRECTION OUTPUT -pinname E1 -fixed no
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname G18 -fixed no
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H19 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location BLINK_LED_0/counter_4\[11\] -fixed no 461 204
+set_location BLINK_LED_0/counter12_14 -fixed no 448 204
+set_location demo_0/CORERESETP_0/RESET_N_M2F_q1 -fixed no 458 202
+set_location BLINK_LED_0/counter11_24 -fixed no 447 204
+set_location demo_0/CCC_0/GL0_INST -fixed no 513 132
+set_location BLINK_LED_0/counter\[14\] -fixed no 460 205
+set_location BLINK_LED_0/counter\[3\] -fixed no 447 202
+set_location BLINK_LED_0/counter\[24\] -fixed no 468 202
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_4 -fixed no 481 198
+set_location BLINK_LED_0/counter11_20 -fixed no 477 201
+set_location BLINK_LED_0/LED2_0 -fixed no 459 204
+set_location BLINK_LED_0/LED1 -fixed no 449 205
+set_location BLINK_LED_0/counter_4\[22\] -fixed no 466 204
+set_location BLINK_LED_0/counter_4\[14\] -fixed no 460 204
+set_location BLINK_LED_0/counter12 -fixed no 458 204
+set_location BLINK_LED_0/counter\[6\] -fixed no 450 202
+set_location BLINK_LED_0/counter\[10\] -fixed no 454 202
+set_location BLINK_LED_0/counter\[12\] -fixed no 456 205
+set_location BLINK_LED_0/counter11_18 -fixed no 453 204
+set_location BLINK_LED_0/counter\[30\] -fixed no 474 202
+set_location BLINK_LED_0/counter\[20\] -fixed no 464 202
+set_location BLINK_LED_0/counter\[22\] -fixed no 466 205
+set_location BLINK_LED_0/counter_4\[9\] -fixed no 457 204
+set_location BLINK_LED_0/counter12_18 -fixed no 478 201
+set_location demo_0/CORERESETP_0/mss_ready_state -fixed no 472 199
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75 -fixed no 509 132
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int -fixed no 504 136
+set_location BLINK_LED_0/counter\[17\] -fixed no 467 205
+set_location BLINK_LED_0/counter12_24 -fixed no 469 198
+set_location BLINK_LED_0/counter\[19\] -fixed no 463 202
+set_location BLINK_LED_0/counter\[27\] -fixed no 471 202
+set_location BLINK_LED_0/counter\[29\] -fixed no 473 202
+set_location BLINK_LED_0/counter_4\[21\] -fixed no 464 204
+set_location BLINK_LED_0/counter\[7\] -fixed no 459 202
+set_location demo_0/CORERESETP_0/mss_ready_select4 -fixed no 472 198
+set_location BLINK_LED_0/counter\[1\] -fixed no 466 202
+set_location BLINK_LED_0/counter\[11\] -fixed no 461 205
+set_location BLINK_LED_0/counter\[15\] -fixed no 479 202
+set_location BLINK_LED_0/counter_4\[17\] -fixed no 467 204
+set_location BLINK_LED_0/counter\[31\] -fixed no 475 202
+set_location demo_0/CORERESETP_0/RESET_N_M2F_clk_base -fixed no 456 202
+set_location demo_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 -fixed no 475 199
+set_location BLINK_LED_0/counter\[21\] -fixed no 464 205
+set_location BLINK_LED_0/counter\[25\] -fixed no 465 205
+set_location BLINK_LED_0/counter_4\[12\] -fixed no 456 204
+set_location demo_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 24 254
+set_location BLINK_LED_0/counter_4\[0\] -fixed no 445 204
+set_location BLINK_LED_0/counter11_19 -fixed no 470 204
+set_location BLINK_LED_0/counter11_15 -fixed no 446 204
+set_location BLINK_LED_0/counter11_13 -fixed no 454 204
+set_location demo_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base -fixed no 473 199
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75/U0_RGB1 -fixed no 254 204
+set_location BLINK_LED_0/LED1_0 -fixed no 449 204
+set_location BLINK_LED_0/counter\[13\] -fixed no 457 202
+set_location BLINK_LED_0/counter12_19 -fixed no 463 204
+set_location BLINK_LED_0/counter12_15 -fixed no 455 204
+set_location BLINK_LED_0/counter11_17 -fixed no 461 198
+set_location BLINK_LED_0/counter11_16 -fixed no 451 204
+set_location BLINK_LED_0/counter11_25 -fixed no 450 204
+set_location BLINK_LED_0/counter12_13 -fixed no 462 204
+set_location BLINK_LED_0/counter\[23\] -fixed no 467 202
+set_location demo_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 469 202
+set_location BLINK_LED_0/counter\[18\] -fixed no 462 202
+set_location BLINK_LED_0/counter\[2\] -fixed no 446 202
+set_location BLINK_LED_0/counter12_17 -fixed no 479 201
+set_location BLINK_LED_0/counter12_16 -fixed no 468 198
+set_location BLINK_LED_0/counter\[28\] -fixed no 477 202
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 770 264
+set_location demo_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 476 202
+set_location BLINK_LED_0/counter\[9\] -fixed no 457 205
+set_location BLINK_LED_0/counter\[0\] -fixed no 445 205
+set_location BLINK_LED_0/counter\[16\] -fixed no 460 202
+set_location demo_0/SYSRESET_POR -fixed no 1020 8
+set_location BLINK_LED_0/counter_4\[25\] -fixed no 465 204
+set_location BLINK_LED_0/counter\[4\] -fixed no 448 202
+set_location BLINK_LED_0/counter11_14 -fixed no 444 204
+set_location BLINK_LED_0/counter\[26\] -fixed no 478 202
+set_location BLINK_LED_0/counter\[5\] -fixed no 449 202
+set_location demo_0/CORERESETP_0/mss_ready_select -fixed no 474 199
+set_location BLINK_LED_0/LED2 -fixed no 459 205
+set_location BLINK_LED_0/counter\[8\] -fixed no 452 202
+set_location demo_0/CCC_0/CCC_INST -fixed no 18 254
+set_location demo_0/demo_MSS_0/MSS_ADLIB_INST -fixed no 924 266
+set_location BLINK_LED_0/un2_counter_1_s_1_36 -fixed no 444 201
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 255 204
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 255 201
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB2 -fixed no 254 198
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB3 -fixed no 254 135
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75/U0_RGB1_RGB0 -fixed no 254 201
+set_location BLINK_LED_0/un2_counter_1_s_1_36_CC_0 -fixed no 444 203
+set_location BLINK_LED_0/un2_counter_1_s_1_36_CC_1 -fixed no 456 203
+set_location BLINK_LED_0/un2_counter_1_s_1_36_CC_2 -fixed no 468 203

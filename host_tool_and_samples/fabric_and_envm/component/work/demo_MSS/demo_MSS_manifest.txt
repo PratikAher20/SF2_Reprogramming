@@ -1,0 +1,32 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Mon Apr 03 18:15:09 2017
+Project   :  F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm
+Component :  demo_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/demo_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/demo_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/demo_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/CM3_compile_bfm.tcl
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/test.bfm
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/component/work/demo_MSS/ENVM.cfg
+

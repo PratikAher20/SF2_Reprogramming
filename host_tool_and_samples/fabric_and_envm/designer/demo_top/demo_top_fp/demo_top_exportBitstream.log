@@ -1,0 +1,15 @@
+Software Version: 11.8.0.26
+Opened 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\demo_top_fp\demo_top.pro'
+The 'open_project' command succeeded.
+PDB file 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\9000fe59-0ead-4f1a-8ead-8f1a0ead8f1a.pdb' has been loaded successfully.
+DESIGN : demo_top;  CHECKSUM : 1B99;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+File/Folder 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\export\demo_top.spi' will be overwritten.
+Successfully exported SPI master file: 'F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\export\demo_top.spi'; file programs Fabric.
+Finished: Mon Apr 03 18:47:05 2017 (Elapsed time 00:00:49)
+
+The 'export_spi_master' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

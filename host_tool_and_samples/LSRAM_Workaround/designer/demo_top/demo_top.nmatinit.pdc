@@ -1,0 +1,259 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 11.8.0.26
+
+# Design Name: demo_top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Mon Apr 03 19:17:45 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io LED1 -DIRECTION OUTPUT -pinname H5 -fixed no
+set_io LED2 -DIRECTION OUTPUT -pinname H6 -fixed no
+set_io LED3 -DIRECTION OUTPUT -pinname J6 -fixed no
+set_io LED4 -DIRECTION OUTPUT -pinname H7 -fixed no
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname G18 -fixed no
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H19 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location BLINK_LED_0/counter11_18 -fixed no 523 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[9\] -fixed no 529 16
+set_location BLINK_LED_0/counter\[21\] -fixed no 537 163
+set_location BLINK_LED_0/counter12_13 -fixed no 532 162
+set_location BLINK_LED_0/counter11_25 -fixed no 517 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_ns_a3\[5\] -fixed no 485 15
+set_location BLINK_LED_0/counter11_15 -fixed no 529 162
+set_location BLINK_LED_0/counter\[12\] -fixed no 529 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[2\] -fixed no 496 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[0\] -fixed no 487 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8_1 -fixed no 498 15
+set_location BLINK_LED_0/counter11_17 -fixed no 520 162
+set_location BLINK_LED_0/counter\[9\] -fixed no 527 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[2\] -fixed no 507 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[0\] -fixed no 505 16
+set_location BLINK_LED_0/counter_4\[12\] -fixed no 528 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[5\] -fixed no 503 13
+set_location demo_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 24 254
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[1\] -fixed no 489 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[1\] -fixed no 515 12
+set_location BLINK_LED_0/counter11_19 -fixed no 539 162
+set_location BLINK_LED_0/counter\[0\] -fixed no 526 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[14\] -fixed no 534 16
+set_location BLINK_LED_0/counter11_24 -fixed no 531 159
+set_location BLINK_LED_0/counter11_14 -fixed no 537 162
+set_location BLINK_LED_0/counter\[2\] -fixed no 518 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[0\] -fixed no 505 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[0\] -fixed no 520 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[3\] -fixed no 508 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[6\] -fixed no 511 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[4\] -fixed no 501 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[4\] -fixed no 509 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNIHSPG\[1\] -fixed no 516 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8_2 -fixed no 493 15
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 770 264
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[6\] -fixed no 526 16
+set_location BLINK_LED_0/counter\[20\] -fixed no 536 166
+set_location BLINK_LED_0/counter11_20 -fixed no 548 165
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[6\] -fixed no 511 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[3\] -fixed no 498 12
+set_location demo_0/CORERESETP_0/mss_ready_state -fixed no 507 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[1\] -fixed no 506 16
+set_location BLINK_LED_0/counter_4\[0\] -fixed no 526 162
+set_location BLINK_LED_0/counter\[6\] -fixed no 522 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE_RNI0N1L1 -fixed no 499 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[5\] -fixed no 510 13
+set_location BLINK_LED_0/counter\[13\] -fixed no 529 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un2_flag_1ms_9 -fixed no 518 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[3\] -fixed no 498 13
+set_location BLINK_LED_0/counter12_18 -fixed no 525 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[2\] -fixed no 514 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[3\] -fixed no 502 13
+set_location BLINK_LED_0/counter\[25\] -fixed no 549 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[5\] -fixed no 499 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[2\] -fixed no 507 13
+set_location demo_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base -fixed no 506 166
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75 -fixed no 513 132
+set_location BLINK_LED_0/counter12_15 -fixed no 534 162
+set_location BLINK_LED_0/counter_4\[25\] -fixed no 549 165
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[0\] -fixed no 495 12
+set_location BLINK_LED_0/counter12_17 -fixed no 518 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE_3 -fixed no 489 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[3\] -fixed no 500 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[3\] -fixed no 500 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[0\] -fixed no 497 16
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int -fixed no 508 166
+set_location BLINK_LED_0/counter\[8\] -fixed no 524 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[1\] -fixed no 515 16
+set_location BLINK_LED_0/counter\[28\] -fixed no 544 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[0\] -fixed no 497 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[5\] -fixed no 502 15
+set_location BLINK_LED_0/counter12_19 -fixed no 535 162
+set_location BLINK_LED_0/counter_4\[14\] -fixed no 538 162
+set_location BLINK_LED_0/counter\[24\] -fixed no 540 166
+set_location CFG0_GND_INST -fixed no 488 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_ns\[4\] -fixed no 483 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE_1 -fixed no 480 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[3\] -fixed no 502 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNO\[2\] -fixed no 514 15
+set_location BLINK_LED_0/counter12_14 -fixed no 530 159
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[0\] -fixed no 484 13
+set_location BLINK_LED_0/counter\[26\] -fixed no 542 166
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75/U0_RGB1 -fixed no 771 165
+set_location demo_0/CORERESETP_0/RESET_N_M2F_clk_base -fixed no 525 166
+set_location BLINK_LED_0/counter12_24 -fixed no 531 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_ns\[1\] -fixed no 515 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_reset_n -fixed no 482 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[0\] -fixed no 484 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[5\] -fixed no 525 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un15_0_a3 -fixed no 490 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[5\] -fixed no 499 13
+set_location demo_0/SYSRESET_POR_RNIKPN2 -fixed no 509 132
+set_location BLINK_LED_0/counter\[4\] -fixed no 520 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[4\] -fixed no 524 16
+set_location BLINK_LED_0/counter\[1\] -fixed no 522 163
+set_location demo_0/CORERESETP_0/mss_ready_select4 -fixed no 507 165
+set_location BLINK_LED_0/counter\[22\] -fixed no 533 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[5\] -fixed no 510 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[4\] -fixed no 503 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[3\] -fixed no 523 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_2_0_a3 -fixed no 492 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[5\] -fixed no 503 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[2\] -fixed no 481 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[8\] -fixed no 528 16
+set_location BLINK_LED_0/counter\[19\] -fixed no 535 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[10\] -fixed no 530 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[6\] -fixed no 513 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[7\] -fixed no 514 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[1\] -fixed no 483 13
+set_location demo_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 515 142
+set_location BLINK_LED_0/counter\[31\] -fixed no 548 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[3\] -fixed no 493 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[1\] -fixed no 480 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_REN -fixed no 484 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[2\] -fixed no 497 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[1\] -fixed no 491 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8_RNITP5V_0 -fixed no 513 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[2\] -fixed no 481 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[2\] -fixed no 522 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[13\] -fixed no 533 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN_RNO -fixed no 485 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[1\] -fixed no 521 16
+set_location BLINK_LED_0/counter_4\[17\] -fixed no 524 162
+set_location BLINK_LED_0/counter11_16 -fixed no 529 159
+set_location BLINK_LED_0/counter\[17\] -fixed no 524 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un2_flag_1ms_10 -fixed no 537 15
+set_location BLINK_LED_0/counter\[11\] -fixed no 519 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[5\] -fixed no 492 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[4\] -fixed no 494 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[0\] -fixed no 495 13
+set_location demo_0/CCC_0/GL0_INST -fixed no 512 132
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[5\] -fixed no 493 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE_2 -fixed no 487 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[7\] -fixed no 514 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[3\] -fixed no 490 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[0\] -fixed no 515 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE -fixed no 481 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[5\] -fixed no 494 16
+set_location BLINK_LED_0/LED1_0 -fixed no 516 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[4\] -fixed no 503 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNIGRPG\[2\] -fixed no 480 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access\[4\] -fixed no 483 16
+set_location BLINK_LED_0/counter\[3\] -fixed no 519 166
+set_location BLINK_LED_0/counter\[23\] -fixed no 539 166
+set_location BLINK_LED_0/counter_4\[21\] -fixed no 536 162
+set_location BLINK_LED_0/counter\[5\] -fixed no 518 163
+set_location demo_0/SYSRESET_POR_RNIKPN2/U0_RGB1 -fixed no 255 141
+set_location BLINK_LED_0/counter_4\[9\] -fixed no 527 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[2\] -fixed no 497 12
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_4 -fixed no 508 165
+set_location demo_0/CORERESETP_0/mss_ready_select -fixed no 509 166
+set_location BLINK_LED_0/counter\[30\] -fixed no 546 166
+set_location demo_0/CORERESETP_0/RESET_N_M2F_q1 -fixed no 551 166
+set_location BLINK_LED_0/LED1 -fixed no 516 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN -fixed no 485 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un6_next_addr_ac0_5 -fixed no 495 15
+set_location BLINK_LED_0/counter_4\[22\] -fixed no 533 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8 -fixed no 494 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[7\] -fixed no 512 13
+set_location BLINK_LED_0/counter\[10\] -fixed no 526 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_i_TPSRAM_RD_sv_NE_0 -fixed no 486 15
+set_location BLINK_LED_0/counter\[7\] -fixed no 523 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_reset_n_RNO -fixed no 482 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_9_0 -fixed no 482 12
+set_location BLINK_LED_0/counter11_13 -fixed no 528 159
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[4\] -fixed no 501 12
+set_location BLINK_LED_0/counter12_16 -fixed no 522 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv\[3\] -fixed no 493 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un15_0 -fixed no 491 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[15\] -fixed no 535 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[0\] -fixed no 487 12
+set_location demo_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 511 142
+set_location BLINK_LED_0/counter\[15\] -fixed no 531 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_10_0 -fixed no 501 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_4_0\[0\] -fixed no 484 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_6\[2\] -fixed no 496 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[5\] -fixed no 492 13
+set_location BLINK_LED_0/counter12 -fixed no 530 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[7\] -fixed no 512 16
+set_location BLINK_LED_0/counter\[18\] -fixed no 534 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[2\] -fixed no 496 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr\[1\] -fixed no 491 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD_3\[4\] -fixed no 500 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[4\] -fixed no 494 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv_3\[1\] -fixed no 483 12
+set_location BLINK_LED_0/counter\[14\] -fixed no 538 163
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[4\] -fixed no 509 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[12\] -fixed no 532 16
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_RADDR_sv_6\[1\] -fixed no 489 12
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data\[3\] -fixed no 508 16
+set_location BLINK_LED_0/counter\[16\] -fixed no 532 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[4\] -fixed no 500 13
+set_location BLINK_LED_0/counter\[29\] -fixed no 545 166
+set_location demo_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 -fixed no 510 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WD\[6\] -fixed no 513 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un2_flag_1ms_8 -fixed no 539 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un2_flag_1ms_11 -fixed no 517 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un2_flag_1ms -fixed no 536 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WADDR_sv\[2\] -fixed no 496 13
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[7\] -fixed no 527 16
+set_location BLINK_LED_0/counter\[27\] -fixed no 543 166
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter\[11\] -fixed no 531 16
+set_location BLINK_LED_0/counter_4\[11\] -fixed no 519 162
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data\[1\] -fixed no 506 13
+set_location Dev_Restart_after_ISP_blk_0/TPSRAM_0/Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0 -fixed no 480 11
+set_location Dev_Restart_after_ISP_blk_0/TAMPER2_0/TAMPER_INST -fixed no 1020 8
+set_location demo_0/CCC_0/CCC_INST -fixed no 18 254
+set_location demo_0/demo_MSS_0/MSS_ADLIB_INST -fixed no 924 266
+set_location BLINK_LED_0/un2_counter_1_s_1_90 -fixed no 516 165
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8_RNITP5V -fixed no 504 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter_cry_cy\[0\] -fixed no 519 15
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data_cry_cy\[0\] -fixed no 504 12
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 254 165
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 770 165
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB2 -fixed no 770 162
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB3 -fixed no 254 141
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB4 -fixed no 254 15
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB5 -fixed no 770 15
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB6 -fixed no 254 12
+set_location demo_0/CCC_0/GL0_INST/U0_RGB1_RGB7 -fixed no 254 9
+set_location demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75/U0_RGB1_RGB0 -fixed no 771 162
+set_location demo_0/SYSRESET_POR_RNIKPN2/U0_RGB1_RGB0 -fixed no 255 15
+set_location demo_0/SYSRESET_POR_RNIKPN2/U0_RGB1_RGB1 -fixed no 771 15
+set_location demo_0/SYSRESET_POR_RNIKPN2/U0_RGB1_RGB2 -fixed no 255 12
+set_location BLINK_LED_0/un2_counter_1_s_1_90_CC_0 -fixed no 516 167
+set_location BLINK_LED_0/un2_counter_1_s_1_90_CC_1 -fixed no 528 167
+set_location BLINK_LED_0/un2_counter_1_s_1_90_CC_2 -fixed no 540 167
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter_cry_cy\[0\]_CC_0 -fixed no 519 17
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter_cry_cy\[0\]_CC_1 -fixed no 528 17
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data_cry_cy\[0\]_CC_0 -fixed no 504 14
+set_location Dev_Restart_after_ISP_blk_0/Ram_intferface_0/o_TPSRAM_WEN8_RNITP5V_CC_0 -fixed no 504 17

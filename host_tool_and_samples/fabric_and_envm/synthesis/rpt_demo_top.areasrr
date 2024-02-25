@@ -1,0 +1,184 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S090TSFBGA484-1 (Microsemi)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   demo_top   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block demo_top:	43 (31.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           32                 100 %                
+ARI1          32                 100 %                
+BLACK BOX     76                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block demo_top:	140 (103.70 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block demo_top:	2 (1.48 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       6                  100 %                
+=================================================
+Total IO PADS in the block demo_top:	6 (4.44 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   BLINK_LED   ########
+Instance path:   demo_top.BLINK_LED                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      34                 79.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block demo_top.BLINK_LED:	34 (25.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           30                 93.8 %               
+ARI1          32                 100 %                
+BLACK BOX     1                  1.32 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo_top.BLINK_LED:	63 (46.67 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   demo   ########
+Instance path:   demo_top.demo                            
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  20.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block demo_top.demo:	9 (6.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  6.25 %               
+BLACK BOX     75                 98.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo_top.demo:	77 (57.04 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block demo_top.demo:	2 (1.48 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  33.3 %               
+=================================================
+Total IO PADS in the block demo_top.demo:	2 (1.48 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z1   ########
+Instance path:   demo.CoreResetP_Z1                                
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  20.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block demo.CoreResetP_Z1:	9 (6.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  6.25 %               
+BLACK BOX     69                 90.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo.CoreResetP_Z1:	71 (52.59 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block demo.CoreResetP_Z1:	1 (0.74 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   demo_CCC_0_FCCC   ########
+Instance path:   demo.demo_CCC_0_FCCC                                
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.63 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo.demo_CCC_0_FCCC:	2 (1.48 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block demo.demo_CCC_0_FCCC:	1 (0.74 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   demo_FABOSC_0_OSC   ########
+Instance path:   demo.demo_FABOSC_0_OSC                                
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.63 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo.demo_FABOSC_0_OSC:	2 (1.48 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   demo_MSS   ########
+Instance path:   demo.demo_MSS                                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  1.32 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block demo.demo_MSS:	1 (0.74 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  33.3 %               
+=================================================
+Total IO PADS in the block demo.demo_MSS:	2 (1.48 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

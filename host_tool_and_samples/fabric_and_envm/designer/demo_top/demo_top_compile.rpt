@@ -1,0 +1,197 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Mon Apr 03 18:15:57 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S090TS       |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------------------------+
+| Topcell | demo_top                                                                                                         |
+| Format  | EDIF                                                                                                             |
+| Source  | F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\synthesis\demo_top.edn        |
+| Source  | F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\constraint\io\demo_top.io.pdc |
++---------+------------------------------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 64   | 86184 | 0.07       |
+| DFF                       | 43   | 86184 | 0.05       |
+| I/O Register              | 0    | 795   | 0.00       |
+| User I/O                  | 6    | 265   | 2.26       |
+| -- Single-ended I/O       | 6    | 265   | 2.26       |
+| -- Differential I/O Pairs | 0    | 132   | 0.00       |
+| RAM64x18                  | 0    | 112   | 0.00       |
+| RAM1K18                   | 0    | 109   | 0.00       |
+| MACC                      | 0    | 84    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 4     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 64   | 43  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 64   | 43  |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (512KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 32     | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 1            | 0           | 0               |
+| Output I/O                    | 5            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  1    |  5     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  6    | 100.00%    |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  0    | 0.00%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------------------------------------+
+| Fanout | Type    | Name                                                           |
++--------+---------+----------------------------------------------------------------+
+| 44     | INT_NET | Net   : demo_0_FAB_CCC_GL0                                     |
+|        |         | Driver: demo_0/CCC_0/GL0_INST/U0_RGB1                          |
+|        |         | Source: NETLIST                                                |
+| 34     | INT_NET | Net   : demo_0_MSS_READY                                       |
+|        |         | Driver: demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75/U0_RGB1 |
+|        |         | Source: NETLIST                                                |
++--------+---------+----------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------+
+| Fanout | Type    | Name                            |
++--------+---------+---------------------------------+
+| 10     | INT_NET | Net   : BLINK_LED_0/counter12   |
+|        |         | Driver: BLINK_LED_0/counter12   |
+| 3      | INT_NET | Net   : LED1_c                  |
+|        |         | Driver: BLINK_LED_0/LED1        |
+| 3      | INT_NET | Net   : LED2_c                  |
+|        |         | Driver: BLINK_LED_0/LED2        |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[13] |
+|        |         | Driver: BLINK_LED_0/counter[13] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[14] |
+|        |         | Driver: BLINK_LED_0/counter[14] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[15] |
+|        |         | Driver: BLINK_LED_0/counter[15] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[16] |
+|        |         | Driver: BLINK_LED_0/counter[16] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[17] |
+|        |         | Driver: BLINK_LED_0/counter[17] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[18] |
+|        |         | Driver: BLINK_LED_0/counter[18] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[19] |
+|        |         | Driver: BLINK_LED_0/counter[19] |
++--------+---------+---------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------+
+| Fanout | Type    | Name                            |
++--------+---------+---------------------------------+
+| 10     | INT_NET | Net   : BLINK_LED_0/counter12   |
+|        |         | Driver: BLINK_LED_0/counter12   |
+| 3      | INT_NET | Net   : LED1_c                  |
+|        |         | Driver: BLINK_LED_0/LED1        |
+| 3      | INT_NET | Net   : LED2_c                  |
+|        |         | Driver: BLINK_LED_0/LED2        |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[13] |
+|        |         | Driver: BLINK_LED_0/counter[13] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[14] |
+|        |         | Driver: BLINK_LED_0/counter[14] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[15] |
+|        |         | Driver: BLINK_LED_0/counter[15] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[16] |
+|        |         | Driver: BLINK_LED_0/counter[16] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[17] |
+|        |         | Driver: BLINK_LED_0/counter[17] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[18] |
+|        |         | Driver: BLINK_LED_0/counter[18] |
+| 3      | INT_NET | Net   : BLINK_LED_0/counter[19] |
+|        |         | Driver: BLINK_LED_0/counter[19] |
++--------+---------+---------------------------------+
+

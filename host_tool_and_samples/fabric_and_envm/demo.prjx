@@ -1,0 +1,602 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL93"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M7500_TS"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "M2S090TS;"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "demo_top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223512"
+SIZE="584"
+PARENT="<project>\component\work\demo\demo.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v,hdl"
+STATE="utd"
+TIME="1489489213"
+SIZE="65628"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v,hdl"
+STATE="utd"
+TIME="1489489213"
+SIZE="8822"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223512"
+SIZE="241"
+PARENT="<project>\component\work\demo\demo.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223514"
+SIZE="684"
+PARENT="<project>\component\work\demo\demo.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.v,hdl"
+STATE="utd"
+TIME="1489489214"
+SIZE="924"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.v,hdl"
+STATE="utd"
+TIME="1489489214"
+SIZE="726"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223508"
+SIZE="526"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="253"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="252"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="254"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="253"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="254"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="254"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="254"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="255"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="254"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="256"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="255"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="258"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223503"
+SIZE="256"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\demo\CCC_0\demo_CCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223512"
+SIZE="681"
+PARENT="<project>\component\work\demo\demo.cxf"
+ENDFILE
+VALUE "<project>\component\work\demo\CCC_0\demo_CCC_0_FCCC.v,hdl"
+STATE="utd"
+TIME="1491223512"
+SIZE="1716"
+PARENT="<project>\component\work\demo\CCC_0\demo_CCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo\demo.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223514"
+SIZE="5451"
+ENDFILE
+VALUE "<project>\component\work\demo\demo.v,hdl"
+STATE="utd"
+TIME="1491223514"
+SIZE="11668"
+PARENT="<project>\component\work\demo\demo.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223514"
+SIZE="457"
+PARENT="<project>\component\work\demo\demo.cxf"
+ENDFILE
+VALUE "<project>\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v,hdl"
+STATE="utd"
+TIME="1491223514"
+SIZE="786"
+PARENT="<project>\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo_MSS\demo_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491223509"
+SIZE="12922"
+ENDFILE
+VALUE "<project>\component\work\demo_MSS\demo_MSS.v,hdl"
+STATE="utd"
+TIME="1491223509"
+SIZE="50837"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo_MSS\demo_MSS_pre.v,hdl"
+STATE="utd"
+TIME="1491223508"
+SIZE="64121"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo_MSS\demo_MSS_syn.v,hdl"
+STATE="utd"
+TIME="1491223508"
+SIZE="56404"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\demo_top\demo_top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491224145"
+SIZE="3253"
+ENDFILE
+VALUE "<project>\component\work\demo_top\demo_top.v,hdl"
+STATE="utd"
+TIME="1491223522"
+SIZE="3248"
+PARENT="<project>\component\work\demo_top\demo_top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1491213559"
+SIZE="1701"
+ENDFILE
+VALUE "<project>\constraint\io\demo_top.io.pdc,io_pdc"
+STATE="utd"
+TIME="1418009231"
+SIZE="1104"
+ENDFILE
+VALUE "<project>\designer\impl1\demo_top.ide_des,ide_des"
+STATE="utd"
+TIME="1418009232"
+SIZE="552"
+ENDFILE
+VALUE "<project>\hdl\blink1.v,hdl"
+STATE="utd"
+TIME="1370578341"
+SIZE="1896"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1491223508"
+SIZE="500"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1489489208"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1491223522"
+SIZE="759"
+PARENT="<project>\component\work\demo_top\demo_top.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1491223508"
+SIZE="734"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1405781749"
+SIZE="555"
+PARENT="<project>\component\work\demo_MSS\demo_MSS.cxf"
+ENDFILE
+VALUE "<project>\synthesis\demo_top.edn,syn_edn"
+STATE="utd"
+TIME="1445184843"
+SIZE="178671"
+ENDFILE
+VALUE "<project>\synthesis\demo_top.so,so"
+STATE="utd"
+TIME="1445184843"
+SIZE="285"
+ENDFILE
+VALUE "<project>\synthesis\demo_top.v,syn_hdl"
+STATE="utd"
+TIME="1445184850"
+SIZE="98062"
+ENDFILE
+VALUE "<project>\synthesis\demo_top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1445184843"
+SIZE="1080"
+ENDFILE
+VALUE "<project>\synthesis\demo_top_syn.prj,prj"
+STATE="utd"
+TIME="1490980729"
+SIZE="3076"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "demo_MSS::work"
+FILE "<project>\component\work\demo_MSS\demo_MSS.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "demo_top::work"
+FILE "<project>\component\work\demo_top\demo_top.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\demo_top.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\demo_top\demo_top_pinrpt_name.rpt,log"
+VALUE "<project>\designer\demo_top\demo_top_pinrpt_number.rpt,log"
+VALUE "<project>\designer\demo_top\demo_top_bankrpt.rpt,log"
+VALUE "<project>\designer\demo_top\demo_top_ioff.xml,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST demo_top
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST demo_MSS
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="11.8_patch"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\microsemi\Libero_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\microsemi\Libero_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\microsemi\Libero_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "demo_top::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\demo_top.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Export Bitstream:demo_top_exportBitstream.log
+StartPage;StartPage;0
+SmartDesign;demo_top;0
+HDL;hdl\blink1.v;0
+SmartDesign;DESIGN_FIRMWARE;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BLINK_LED::work","hdl\blink1.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v","FALSE","FALSE"
+SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
+ENDLIST
+LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
+ENDLIST
+LIST "demo::work","component\work\demo\demo.v","TRUE","FALSE"
+SUBBLOCK "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v","FALSE","FALSE"
+SUBBLOCK "demo_CCC_0_FCCC::work","component\work\demo\CCC_0\demo_CCC_0_FCCC.v","FALSE","FALSE"
+SUBBLOCK "demo_FABOSC_0_OSC::work","component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v","FALSE","FALSE"
+SUBBLOCK "demo_MSS::work","component\work\demo_MSS\demo_MSS.v","TRUE","FALSE"
+ENDLIST
+LIST "demo_CCC_0_FCCC::work","component\work\demo\CCC_0\demo_CCC_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "demo_FABOSC_0_OSC::work","component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "demo_MSS::work","component\work\demo_MSS\demo_MSS.v","TRUE","FALSE"
+SUBBLOCK "MSS_075::work","component\work\demo_MSS\demo_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "demo_top::work","component\work\demo_top\demo_top.v","TRUE","FALSE"
+SUBBLOCK "BLINK_LED::work","hdl\blink1.v","FALSE","FALSE"
+SUBBLOCK "demo::work","component\work\demo\demo.v","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_075::work","component\work\demo_MSS\demo_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

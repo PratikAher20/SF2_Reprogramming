@@ -1,0 +1,20 @@
+*****************************************************************
+Pin Report - Date: Mon Apr 03 19:17:48 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: demo_top
+Family: SmartFusion2
+Die: M2S090TS
+Package: 484 FBGA
+*****************************************************************
+
+Port         |Pin |Fixed |Function                                     |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-------------|----|------|---------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N      R15  Fixed  DEVRST_N                                      ---       
+LED1          H5   Yes    MSIO150NB8                                    Bank8     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LED2          H6   Yes    MSIO148PB8                                    Bank8     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LED3          J6   Yes    MSIO148NB8                                    Bank8     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LED4          H7   Yes    MSIO146PB8                                    Bank8     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+MMUART_1_RXD  G18  Yes    MSIO55NB2/MMUART_1_RXD/GPIO_26_B/USB_DATA3_C  Bank2     LVCMOS25   Input                           TRISTATE                        None                                Yes                                 Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_1_TXD  H19  Yes    MSIO54NB2/MMUART_1_TXD/GPIO_24_B/USB_DATA2_C  Bank2     LVCMOS25   Output                          TRISTATE                        None                                Yes                                 ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

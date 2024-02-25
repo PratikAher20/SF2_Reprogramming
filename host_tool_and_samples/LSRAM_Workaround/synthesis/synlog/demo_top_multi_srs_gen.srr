@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File D:\microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe changed - recompiling
+File F:\11.6_release\isp_uart\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 03 19:16:05 2017
+
+###########################################################]

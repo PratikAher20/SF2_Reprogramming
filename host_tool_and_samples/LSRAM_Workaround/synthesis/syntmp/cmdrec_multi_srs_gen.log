@@ -1,0 +1,7 @@
+\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\bin64\syn_nfilter.exe  -link  -top  demo_top  -multisrs  F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_comp.srs  -osyn  F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_mult.srs  -log  F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synlog\demo_top_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_comp.srs|io:i|time:1491227163|size:78617|exec:0
+file:F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_mult.srs|io:o|time:1491227165|size:2974|exec:0
+file:F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synlog\demo_top_multi_srs_gen.srr|io:o|time:1491227165|size:677|exec:0
+file:\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\bin\syn_nfilter.exe|io:i|time:1479402458|size:3128320|exec:1
+file:\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\bin64\syn_nfilter.exe|io:i|time:1479402724|size:4208128|exec:1

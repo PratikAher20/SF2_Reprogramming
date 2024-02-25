@@ -1,0 +1,26 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    44     0      0      'demo_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      34     0      'demo_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D75' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file F:/11.8/sf2_isp_using_uart_interface_demo_df/host_tool_and_samples/fabric_and_envm/constraint/io/demo_top.io.pdc. 0 error(s) and 0 warning(s)

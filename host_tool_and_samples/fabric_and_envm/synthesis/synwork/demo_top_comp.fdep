@@ -1,0 +1,65 @@
+#OPTIONS:"|-layerid|0|-orig_srs|F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\synthesis\\synwork\\demo_top_comp.srs|-top|demo_top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\synthesis\\|-I|\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib|-v2001|-devicelib|\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\bin64\\c_ver.exe":1480007424
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\generic\\smartfusion2.v":1487970428
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\hypermods.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\umr_capim.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\scemi_objects.v":1487970586
+#CUR:"\\\\idm\\tools\\releases\\production\\Synopsys\\Synplify\\pc\\synplify_L201609M-2_W\\lib\\vlog\\scemi_pipes.svh":1487970586
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\hdl\\blink1.v":1370578341
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1489489213
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1489489213
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo\\CCC_0\\demo_CCC_0_FCCC.v":1491223512
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1489489214
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo\\FABOSC_0\\demo_FABOSC_0_OSC.v":1491223514
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo_MSS\\demo_MSS_syn.v":1491223508
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo_MSS\\demo_MSS.v":1491223509
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo\\demo.v":1491223514
+#CUR:"F:\\11.8\\sf2_isp_using_uart_interface_demo_df\\host_tool_and_samples\\fabric_and_envm\\component\\work\\demo_top\\demo_top.v":1491223522
+0			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\hdl\blink1.v" verilog
+1			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+2			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+3			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo\CCC_0\demo_CCC_0_FCCC.v" verilog
+4			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+5			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v" verilog
+6			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo_MSS\demo_MSS_syn.v" verilog
+7			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo_MSS\demo_MSS.v" verilog
+8			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo\demo.v" verilog
+9			"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\component\work\demo_top\demo_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 -1
+5 4
+6 -1
+7 6
+8 5 7 2 3
+9 8 0
+#Dependency Lists(Users Of)
+0 9
+1 2
+2 8
+3 8
+4 5
+5 8
+6 7
+7 8
+8 9
+9 -1
+#Design Unit to File Association
+module work demo_top 9
+module work demo 8
+module work demo_MSS 7
+module work MSS_075 6
+module work demo_FABOSC_0_OSC 5
+module work XTLOSC_FAB 4
+module work RCOSC_25_50MHZ_FAB 4
+module work RCOSC_1MHZ_FAB 4
+module work XTLOSC 4
+module work RCOSC_25_50MHZ 4
+module work RCOSC_1MHZ 4
+module work demo_CCC_0_FCCC 3
+module work CoreResetP 2
+module work coreresetp_pcie_hotreset 1
+module work BLINK_LED 0

@@ -1,0 +1,6 @@
+define_attribute {i:demo_0.demo_MSS_0.MMUART_1_RXD_PAD} {syn_noprune} 1
+define_attribute {i:demo_0.demo_MSS_0.MMUART_1_TXD_PAD} {syn_noprune} 1
+define_attribute {i:demo_0.FABOSC_0} {syn_noprune} 1
+define_attribute {i:Dev_Restart_after_ISP_blk_0.TAMPER2_0} {syn_noprune} 1
+define_attribute {i:Dev_Restart_after_ISP_blk_0} {syn_noprune} 1
+define_attribute {i:demo_0} {syn_noprune} 1

@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "F:\Microsemi\work\isp_uart\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\impl1\demo_top.adb"
+LIST SOURCE_FILES
+VALUE "F:\Microsemi\work\isp_uart\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\constraint\io\demo_top.io.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "F:\Microsemi\work\isp_uart\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\synthesis\demo_top_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

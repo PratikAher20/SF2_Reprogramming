@@ -1,0 +1,815 @@
+<html><body><samp><pre>
+<!@TC:1491227159>
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: \\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W
+#OS: Windows 7 6.1
+#Hostname: W764-KOTIPALLID
+
+# Mon Apr 03 19:15:59 2017
+
+#Implementation: synthesis
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
+@N: : <!@TM:1491227163> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016</a>
+@N: : <!@TM:1491227163> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v" (library work)
+@I::"\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\TAMPER2\2.1.200\tamper_comps.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TAMPER2_0\Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TPSRAM_0\Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\CCC_0\demo_CCC_0_FCCC.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS_syn.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\demo.v" (library work)
+@I::"F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_top\demo_top.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module demo_top
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v:18:7:18:16:@N:CG364:@XP_MSG">blink1.v(18)</a><!@TM:1491227163> | Synthesizing module BLINK_LED in library work.
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v:55:18:55:22:@N:CG179:@XP_MSG">blink1.v(55)</a><!@TM:1491227163> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v:56:18:56:22:@N:CG179:@XP_MSG">blink1.v(56)</a><!@TM:1491227163> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v:57:18:57:22:@N:CG179:@XP_MSG">blink1.v(57)</a><!@TM:1491227163> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\blink1.v:58:18:58:22:@N:CG179:@XP_MSG">blink1.v(58)</a><!@TM:1491227163> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:376:7:376:10:@N:CG364:@XP_MSG">smartfusion2.v(376)</a><!@TM:1491227163> | Synthesizing module VCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:372:7:372:10:@N:CG364:@XP_MSG">smartfusion2.v(372)</a><!@TM:1491227163> | Synthesizing module GND in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:362:7:362:13:@N:CG364:@XP_MSG">smartfusion2.v(362)</a><!@TM:1491227163> | Synthesizing module CLKINT in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:727:7:727:10:@N:CG364:@XP_MSG">smartfusion2.v(727)</a><!@TM:1491227163> | Synthesizing module CCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\CCC_0\demo_CCC_0_FCCC.v:5:7:5:22:@N:CG364:@XP_MSG">demo_CCC_0_FCCC.v(5)</a><!@TM:1491227163> | Synthesizing module demo_CCC_0_FCCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:23:7:23:17:@N:CG364:@XP_MSG">coreresetp.v(23)</a><!@TM:1491227163> | Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000001
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z1
+
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1613:4:1613:10:@W:CL169:@XP_MSG">coreresetp.v(1613)</a><!@TM:1491227163> | Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1581:4:1581:10:@W:CL169:@XP_MSG">coreresetp.v(1581)</a><!@TM:1491227163> | Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1549:4:1549:10:@W:CL169:@XP_MSG">coreresetp.v(1549)</a><!@TM:1491227163> | Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1517:4:1517:10:@W:CL169:@XP_MSG">coreresetp.v(1517)</a><!@TM:1491227163> | Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1485:4:1485:10:@W:CL169:@XP_MSG">coreresetp.v(1485)</a><!@TM:1491227163> | Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1455:4:1455:10:@W:CL169:@XP_MSG">coreresetp.v(1455)</a><!@TM:1491227163> | Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1365:4:1365:10:@W:CL169:@XP_MSG">coreresetp.v(1365)</a><!@TM:1491227163> | Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1300:4:1300:10:@W:CL169:@XP_MSG">coreresetp.v(1300)</a><!@TM:1491227163> | Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1235:4:1235:10:@W:CL169:@XP_MSG">coreresetp.v(1235)</a><!@TM:1491227163> | Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1170:4:1170:10:@W:CL169:@XP_MSG">coreresetp.v(1170)</a><!@TM:1491227163> | Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@W:CL169:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227163> | Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1388:4:1388:10:@W:CL177:@XP_MSG">coreresetp.v(1388)</a><!@TM:1491227163> | Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL190:@XP_HELP">CL190</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1433:4:1433:10:@W:CL190:@XP_MSG">coreresetp.v(1433)</a><!@TM:1491227163> | Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@W:CL169:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227163> | Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1433:4:1433:10:@W:CL169:@XP_MSG">coreresetp.v(1433)</a><!@TM:1491227163> | Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1433:4:1433:10:@W:CL169:@XP_MSG">coreresetp.v(1433)</a><!@TM:1491227163> | Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:783:4:783:10:@W:CL169:@XP_MSG">coreresetp.v(783)</a><!@TM:1491227163> | Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:783:4:783:10:@W:CL169:@XP_MSG">coreresetp.v(783)</a><!@TM:1491227163> | Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:268:7:268:12:@N:CG364:@XP_MSG">smartfusion2.v(268)</a><!@TM:1491227163> | Synthesizing module INBUF in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:280:7:280:14:@N:CG364:@XP_MSG">smartfusion2.v(280)</a><!@TM:1491227163> | Synthesizing module TRIBUFF in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS_syn.v:5:7:5:14:@N:CG364:@XP_MSG">demo_MSS_syn.v(5)</a><!@TM:1491227163> | Synthesizing module MSS_075 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_MSS\demo_MSS.v:9:7:9:15:@N:CG364:@XP_MSG">demo_MSS.v(9)</a><!@TM:1491227163> | Synthesizing module demo_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\OSC\2.0.101\osc_comps.v:51:7:51:25:@N:CG364:@XP_MSG">osc_comps.v(51)</a><!@TM:1491227163> | Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\OSC\2.0.101\osc_comps.v:11:7:11:21:@N:CG364:@XP_MSG">osc_comps.v(11)</a><!@TM:1491227163> | Synthesizing module RCOSC_25_50MHZ in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:5:7:5:24:@N:CG364:@XP_MSG">demo_FABOSC_0_OSC.v(5)</a><!@TM:1491227163> | Synthesizing module demo_FABOSC_0_OSC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:718:7:718:15:@N:CG364:@XP_MSG">smartfusion2.v(718)</a><!@TM:1491227163> | Synthesizing module SYSRESET in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\demo.v:9:7:9:11:@N:CG364:@XP_MSG">demo.v(9)</a><!@TM:1491227163> | Synthesizing module demo in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v:17:7:17:21:@N:CG364:@XP_MSG">Ram_interface.v(17)</a><!@TM:1491227163> | Synthesizing module Ram_intferface in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v:61:0:61:6:@W:CL169:@XP_MSG">Ram_interface.v(61)</a><!@TM:1491227163> | Pruning unused register tpsram_test_complete. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v:61:0:61:6:@W:CL169:@XP_MSG">Ram_interface.v(61)</a><!@TM:1491227163> | Pruning unused register tpsram_pass. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\SgCore\TAMPER2\2.1.200\tamper_comps.v:1:7:1:13:@N:CG364:@XP_MSG">tamper_comps.v(1)</a><!@TM:1491227163> | Synthesizing module TAMPER in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TAMPER2_0\Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2.v:5:7:5:50:@N:CG364:@XP_MSG">Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2.v(5)</a><!@TM:1491227163> | Synthesizing module Dev_Restart_after_ISP_blk_TAMPER2_0_TAMPER2 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="\\idm\tools\releases\production\Synopsys\Synplify\pc\synplify_L201609M-2_W\lib\generic\smartfusion2.v:382:7:382:14:@N:CG364:@XP_MSG">smartfusion2.v(382)</a><!@TM:1491227163> | Synthesizing module RAM1K18 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\TPSRAM_0\Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM.v:5:7:5:48:@N:CG364:@XP_MSG">Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM.v(5)</a><!@TM:1491227163> | Synthesizing module Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v:9:7:9:32:@N:CG364:@XP_MSG">Dev_Restart_after_ISP_blk.v(9)</a><!@TM:1491227163> | Synthesizing module Dev_Restart_after_ISP_blk in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo_top\demo_top.v:9:7:9:15:@N:CG364:@XP_MSG">demo_top.v(9)</a><!@TM:1491227163> | Synthesizing module demo_top in library work.
+
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\hdl\Ram_interface.v:61:0:61:6:@N:CL201:@XP_MSG">Ram_interface.v(61)</a><!@TM:1491227163> | Trying to extract state machine for register state_tpsram_access.
+Extracted state machine for register state_tpsram_access
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:17:7:17:21:@W:CL157:@XP_MSG">demo_FABOSC_0_OSC.v(17)</a><!@TM:1491227163> | *Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:18:7:18:21:@W:CL157:@XP_MSG">demo_FABOSC_0_OSC.v(18)</a><!@TM:1491227163> | *Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:19:7:19:17:@W:CL157:@XP_MSG">demo_FABOSC_0_OSC.v(19)</a><!@TM:1491227163> | *Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:20:7:20:17:@W:CL157:@XP_MSG">demo_FABOSC_0_OSC.v(20)</a><!@TM:1491227163> | *Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\work\demo\FABOSC_0\demo_FABOSC_0_OSC.v:14:7:14:10:@N:CL159:@XP_MSG">demo_FABOSC_0_OSC.v(14)</a><!@TM:1491227163> | Input XTL is unused.
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:CL177:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227163> | Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.</font>
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1365:4:1365:10:@N:CL201:@XP_MSG">coreresetp.v(1365)</a><!@TM:1491227163> | Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1300:4:1300:10:@N:CL201:@XP_MSG">coreresetp.v(1300)</a><!@TM:1491227163> | Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1235:4:1235:10:@N:CL201:@XP_MSG">coreresetp.v(1235)</a><!@TM:1491227163> | Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1170:4:1170:10:@N:CL201:@XP_MSG">coreresetp.v(1170)</a><!@TM:1491227163> | Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:CL201:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227163> | Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:29:20:29:29:@N:CL159:@XP_MSG">coreresetp.v(29)</a><!@TM:1491227163> | Input CLK_LTSSM is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:56:20:56:29:@N:CL159:@XP_MSG">coreresetp.v(56)</a><!@TM:1491227163> | Input FPLL_LOCK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:59:20:59:35:@N:CL159:@XP_MSG">coreresetp.v(59)</a><!@TM:1491227163> | Input SDIF0_SPLL_LOCK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:68:20:68:35:@N:CL159:@XP_MSG">coreresetp.v(68)</a><!@TM:1491227163> | Input SDIF1_SPLL_LOCK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:72:20:72:35:@N:CL159:@XP_MSG">coreresetp.v(72)</a><!@TM:1491227163> | Input SDIF2_SPLL_LOCK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:76:20:76:35:@N:CL159:@XP_MSG">coreresetp.v(76)</a><!@TM:1491227163> | Input SDIF3_SPLL_LOCK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:90:20:90:30:@N:CL159:@XP_MSG">coreresetp.v(90)</a><!@TM:1491227163> | Input SDIF0_PSEL is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:91:20:91:32:@N:CL159:@XP_MSG">coreresetp.v(91)</a><!@TM:1491227163> | Input SDIF0_PWRITE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:92:20:92:32:@N:CL159:@XP_MSG">coreresetp.v(92)</a><!@TM:1491227163> | Input SDIF0_PRDATA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:93:20:93:30:@N:CL159:@XP_MSG">coreresetp.v(93)</a><!@TM:1491227163> | Input SDIF1_PSEL is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:94:20:94:32:@N:CL159:@XP_MSG">coreresetp.v(94)</a><!@TM:1491227163> | Input SDIF1_PWRITE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:95:20:95:32:@N:CL159:@XP_MSG">coreresetp.v(95)</a><!@TM:1491227163> | Input SDIF1_PRDATA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:96:20:96:30:@N:CL159:@XP_MSG">coreresetp.v(96)</a><!@TM:1491227163> | Input SDIF2_PSEL is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:97:20:97:32:@N:CL159:@XP_MSG">coreresetp.v(97)</a><!@TM:1491227163> | Input SDIF2_PWRITE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:98:20:98:32:@N:CL159:@XP_MSG">coreresetp.v(98)</a><!@TM:1491227163> | Input SDIF2_PRDATA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:99:20:99:30:@N:CL159:@XP_MSG">coreresetp.v(99)</a><!@TM:1491227163> | Input SDIF3_PSEL is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:100:20:100:32:@N:CL159:@XP_MSG">coreresetp.v(100)</a><!@TM:1491227163> | Input SDIF3_PWRITE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:101:20:101:32:@N:CL159:@XP_MSG">coreresetp.v(101)</a><!@TM:1491227163> | Input SDIF3_PRDATA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:107:20:107:38:@N:CL159:@XP_MSG">coreresetp.v(107)</a><!@TM:1491227163> | Input SOFT_EXT_RESET_OUT is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:108:20:108:34:@N:CL159:@XP_MSG">coreresetp.v(108)</a><!@TM:1491227163> | Input SOFT_RESET_F2M is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:109:20:109:33:@N:CL159:@XP_MSG">coreresetp.v(109)</a><!@TM:1491227163> | Input SOFT_M3_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:110:20:110:50:@N:CL159:@XP_MSG">coreresetp.v(110)</a><!@TM:1491227163> | Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:111:20:111:40:@N:CL159:@XP_MSG">coreresetp.v(111)</a><!@TM:1491227163> | Input SOFT_FDDR_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:112:20:112:40:@N:CL159:@XP_MSG">coreresetp.v(112)</a><!@TM:1491227163> | Input SOFT_SDIF0_PHY_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:113:20:113:41:@N:CL159:@XP_MSG">coreresetp.v(113)</a><!@TM:1491227163> | Input SOFT_SDIF0_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:114:20:114:40:@N:CL159:@XP_MSG">coreresetp.v(114)</a><!@TM:1491227163> | Input SOFT_SDIF1_PHY_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:115:20:115:41:@N:CL159:@XP_MSG">coreresetp.v(115)</a><!@TM:1491227163> | Input SOFT_SDIF1_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:116:20:116:40:@N:CL159:@XP_MSG">coreresetp.v(116)</a><!@TM:1491227163> | Input SOFT_SDIF2_PHY_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:117:20:117:41:@N:CL159:@XP_MSG">coreresetp.v(117)</a><!@TM:1491227163> | Input SOFT_SDIF2_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:118:20:118:40:@N:CL159:@XP_MSG">coreresetp.v(118)</a><!@TM:1491227163> | Input SOFT_SDIF3_PHY_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:119:20:119:41:@N:CL159:@XP_MSG">coreresetp.v(119)</a><!@TM:1491227163> | Input SOFT_SDIF3_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:123:20:123:43:@N:CL159:@XP_MSG">coreresetp.v(123)</a><!@TM:1491227163> | Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v:124:20:124:43:@N:CL159:@XP_MSG">coreresetp.v(124)</a><!@TM:1491227163> | Input SOFT_SDIF0_1_CORE_RESET is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 03 19:16:01 2017
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
+@N: : <!@TM:1491227163> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 03 19:16:03 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 03 19:16:03 2017
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
+@N: : <!@TM:1491227165> | Running in 64-bit mode 
+File D:\microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe changed - recompiling
+File F:\11.6_release\isp_uart\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 03 19:16:05 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Apr 03 19:16:08 2017
+
+<a name=mapperReport5></a>Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1491227171> | No constraint file specified. 
+Linked File: <a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top_scck.rpt:@XP_FILE">demo_top_scck.rpt</a>
+Printing clock  summary report in "F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1491227171> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1491227171> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 107MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@W:BN132:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227171> | Removing sequential instance demo_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance demo_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:17:7:17:21:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(17)</a><!@TM:1491227171> | Tristate driver RCOSC_1MHZ_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:18:7:18:21:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(18)</a><!@TM:1491227171> | Tristate driver RCOSC_1MHZ_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:19:7:19:17:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(19)</a><!@TM:1491227171> | Tristate driver XTLOSC_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:20:7:20:17:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(20)</a><!@TM:1491227171> | Tristate driver XTLOSC_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:676:4:676:10:@W:MO129:@XP_MSG">coreresetp.v(676)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:695:4:695:10:@W:MO129:@XP_MSG">coreresetp.v(695)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:714:4:714:10:@W:MO129:@XP_MSG">coreresetp.v(714)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:733:4:733:10:@W:MO129:@XP_MSG">coreresetp.v(733)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:769:4:769:10:@W:MO129:@XP_MSG">coreresetp.v(769)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:676:4:676:10:@W:MO129:@XP_MSG">coreresetp.v(676)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:695:4:695:10:@W:MO129:@XP_MSG">coreresetp.v(695)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:714:4:714:10:@W:MO129:@XP_MSG">coreresetp.v(714)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:733:4:733:10:@W:MO129:@XP_MSG">coreresetp.v(733)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:769:4:769:10:@W:MO129:@XP_MSG">coreresetp.v(769)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:676:4:676:10:@W:MO129:@XP_MSG">coreresetp.v(676)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:695:4:695:10:@W:MO129:@XP_MSG">coreresetp.v(695)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:714:4:714:10:@W:MO129:@XP_MSG">coreresetp.v(714)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:733:4:733:10:@W:MO129:@XP_MSG">coreresetp.v(733)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1388:4:1388:10:@W:MO129:@XP_MSG">coreresetp.v(1388)</a><!@TM:1491227171> | Sequential instance demo_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.</font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227171> | Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227171> | Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227171> | Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227171> | Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1170:4:1170:10:@N:BN362:@XP_MSG">coreresetp.v(1170)</a><!@TM:1491227171> | Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1170:4:1170:10:@N:BN362:@XP_MSG">coreresetp.v(1170)</a><!@TM:1491227171> | Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1235:4:1235:10:@N:BN362:@XP_MSG">coreresetp.v(1235)</a><!@TM:1491227171> | Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1235:4:1235:10:@N:BN362:@XP_MSG">coreresetp.v(1235)</a><!@TM:1491227171> | Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1300:4:1300:10:@N:BN362:@XP_MSG">coreresetp.v(1300)</a><!@TM:1491227171> | Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1300:4:1300:10:@N:BN362:@XP_MSG">coreresetp.v(1300)</a><!@TM:1491227171> | Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1365:4:1365:10:@N:BN362:@XP_MSG">coreresetp.v(1365)</a><!@TM:1491227171> | Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1365:4:1365:10:@N:BN362:@XP_MSG">coreresetp.v(1365)</a><!@TM:1491227171> | Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1170:4:1170:10:@N:BN362:@XP_MSG">coreresetp.v(1170)</a><!@TM:1491227171> | Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1235:4:1235:10:@N:BN362:@XP_MSG">coreresetp.v(1235)</a><!@TM:1491227171> | Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1300:4:1300:10:@N:BN362:@XP_MSG">coreresetp.v(1300)</a><!@TM:1491227171> | Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1365:4:1365:10:@N:BN362:@XP_MSG">coreresetp.v(1365)</a><!@TM:1491227171> | Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:797:4:797:10:@N:BN362:@XP_MSG">coreresetp.v(797)</a><!@TM:1491227171> | Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:811:4:811:10:@N:BN362:@XP_MSG">coreresetp.v(811)</a><!@TM:1491227171> | Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:825:4:825:10:@N:BN362:@XP_MSG">coreresetp.v(825)</a><!@TM:1491227171> | Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:839:4:839:10:@N:BN362:@XP_MSG">coreresetp.v(839)</a><!@TM:1491227171> | Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:797:4:797:10:@N:BN362:@XP_MSG">coreresetp.v(797)</a><!@TM:1491227171> | Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:811:4:811:10:@N:BN362:@XP_MSG">coreresetp.v(811)</a><!@TM:1491227171> | Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:825:4:825:10:@N:BN362:@XP_MSG">coreresetp.v(825)</a><!@TM:1491227171> | Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:839:4:839:10:@N:BN362:@XP_MSG">coreresetp.v(839)</a><!@TM:1491227171> | Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=109  set on top level netlist demo_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start                                                   Requested     Requested     Clock        Clock                   Clock
+Clock                                                   Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------
+System                                                  100.0 MHz     10.000        system       system_clkgroup         0    
+demo_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0     141  
+demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     15   
+==============================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\blink1.v:33:0:33:6:@W:MT530:@XP_MSG">blink1.v(33)</a><!@TM:1491227171> | Found inferred clock demo_CCC_0_FCCC|GL0_net_inferred_clock which controls 141 sequential elements including BLINK_LED_0.counter[31:0]. This clock has no specified timing constraint which may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:912:4:912:10:@W:MT530:@XP_MSG">coreresetp.v(912)</a><!@TM:1491227171> | Found inferred clock demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including demo_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1491227171> | Writing default property annotation file F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state_tpsram_access[5:0] (in view: work.Ram_intferface(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 50MB peak: 137MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Mon Apr 03 19:16:11 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Apr 03 19:16:12 2017
+
+<a name=mapperReport7></a>Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1491227175> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1491227175> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:20:7:20:17:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(20)</a><!@TM:1491227175> | Tristate driver XTLOSC_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:19:7:19:17:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(19)</a><!@TM:1491227175> | Tristate driver XTLOSC_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:18:7:18:21:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(18)</a><!@TM:1491227175> | Tristate driver RCOSC_1MHZ_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\fabosc_0\demo_fabosc_0_osc.v:17:7:17:21:@N:MO111:@XP_MSG">demo_fabosc_0_osc.v(17)</a><!@TM:1491227175> | Tristate driver RCOSC_1MHZ_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.demo_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@W:BN132:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance demo_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:946:4:946:10:@W:BN132:@XP_MSG">coreresetp.v(946)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance demo_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:946:4:946:10:@W:BN132:@XP_MSG">coreresetp.v(946)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance demo_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:929:4:929:10:@W:BN132:@XP_MSG">coreresetp.v(929)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance demo_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:884:4:884:10:@W:BN132:@XP_MSG">coreresetp.v(884)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance demo_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:912:4:912:10:@W:BN132:@XP_MSG">coreresetp.v(912)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance demo_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:898:4:898:10:@W:BN132:@XP_MSG">coreresetp.v(898)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance demo_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:856:4:856:10:@W:BN132:@XP_MSG">coreresetp.v(856)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance demo_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:898:4:898:10:@W:BN132:@XP_MSG">coreresetp.v(898)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance demo_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:912:4:912:10:@W:BN132:@XP_MSG">coreresetp.v(912)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance demo_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\blink1.v:33:0:33:6:@N:BN362:@XP_MSG">blink1.v(33)</a><!@TM:1491227175> | Removing sequential instance LED3 (in view: work.BLINK_LED(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\blink1.v:33:0:33:6:@A:BN291:@XP_MSG">blink1.v(33)</a><!@TM:1491227175> | Boundary register LED3 (in view: work.BLINK_LED(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\blink1.v:33:0:33:6:@N:BN362:@XP_MSG">blink1.v(33)</a><!@TM:1491227175> | Removing sequential instance LED4 (in view: work.BLINK_LED(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\blink1.v:33:0:33:6:@A:BN291:@XP_MSG">blink1.v(33)</a><!@TM:1491227175> | Boundary register LED4 (in view: work.BLINK_LED(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state_tpsram_access[5:0] (in view: work.Ram_intferface(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\ram_interface.v:61:0:61:6:@N:MO231:@XP_MSG">ram_interface.v(61)</a><!@TM:1491227175> | Found counter in view:work.Ram_intferface(verilog) instance next_data[7:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\ram_interface.v:61:0:61:6:@N:MO231:@XP_MSG">ram_interface.v(61)</a><!@TM:1491227175> | Found counter in view:work.Ram_intferface(verilog) instance expected_data[7:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\hdl\ram_interface.v:61:0:61:6:@N:MO231:@XP_MSG">ram_interface.v(61)</a><!@TM:1491227175> | Found counter in view:work.Ram_intferface(verilog) instance counter[15:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.INIT_DONE_int (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[6] (in view: work.demo_top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1613:4:1613:10:@N:BN362:@XP_MSG">coreresetp.v(1613)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.ddr_settled (in view: work.demo_top(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1613:4:1613:10:@A:BN291:@XP_MSG">coreresetp.v(1613)</a><!@TM:1491227175> | Boundary register demo_0.CORERESETP_0.ddr_settled (in view: work.demo_top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1646:4:1646:10:@N:BN362:@XP_MSG">coreresetp.v(1646)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.ddr_settled_q1 (in view: work.demo_top(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1646:4:1646:10:@A:BN291:@XP_MSG">coreresetp.v(1646)</a><!@TM:1491227175> | Boundary register demo_0.CORERESETP_0.ddr_settled_q1 (in view: work.demo_top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:963:4:963:10:@N:BN362:@XP_MSG">coreresetp.v(963)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:929:4:929:10:@N:BN362:@XP_MSG">coreresetp.v(929)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:870:4:870:10:@N:BN362:@XP_MSG">coreresetp.v(870)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:856:4:856:10:@N:BN362:@XP_MSG">coreresetp.v(856)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:755:4:755:10:@N:BN362:@XP_MSG">coreresetp.v(755)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:755:4:755:10:@N:BN362:@XP_MSG">coreresetp.v(755)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1646:4:1646:10:@N:BN362:@XP_MSG">coreresetp.v(1646)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.ddr_settled_clk_base (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[5] (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[4] (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[3] (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[2] (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[1] (in view: work.demo_top(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v:1089:4:1089:10:@N:BN362:@XP_MSG">coreresetp.v(1089)</a><!@TM:1491227175> | Removing sequential instance demo_0.CORERESETP_0.sm0_state[0] (in view: work.demo_top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     2.56ns		 159 /       109
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1491227175> | Promoting Net demo_0_POWER_ON_RESET_N on CLKINT  I_91  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1491227175> | Promoting Net demo_0_MSS_READY on CLKINT  I_92  
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 112 clock pin(s) of sequential element(s)
+0 instances converted, 112 sequential instances remain driven by gated/generated clocks
+
+=========================================================================== Gated/Generated Clocks ===========================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance                      Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:demo_0.CCC_0.CCC_INST@|E:demo_0.demo_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       demo_0.CCC_0.CCC_INST     CCC                    112        demo_0.demo_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_075
+==============================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 137MB)
+
+Writing Analyst data base F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\synwork\demo_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1491227175> | Writing EDF file: F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top.edn 
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1491227175> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1491227175> | Synopsys Constraint File capacitance units using default value of 1pF  
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT246:@XP_HELP">MT246</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\dev_restart_after_isp_blk\tamper2_0\dev_restart_after_isp_blk_tamper2_0_tamper2.v:31:11:31:22:@W:MT246:@XP_MSG">dev_restart_after_isp_blk_tamper2_0_tamper2.v(31)</a><!@TM:1491227175> | Blackbox TAMPER is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </font>
+<font color=#A52A2A>@W:<a href="@W:MT246:@XP_HELP">MT246</a> : <a href="f:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\lsram_workaround\component\work\demo\ccc_0\demo_ccc_0_fccc.v:20:36:20:44:@W:MT246:@XP_MSG">demo_ccc_0_fccc.v(20)</a><!@TM:1491227175> | Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </font>
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1491227175> | Found inferred clock demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:demo_0.FABOSC_0.RCOSC_25_50MHZ_CCC"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1491227175> | Found inferred clock demo_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:demo_0.CCC_0.GL0_net"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Mon Apr 03 19:16:15 2017
+#
+
+
+Top view:               demo_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1491227175> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1491227175> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 4.175
+
+                                                        Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                          Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     171.7 MHz     10.000        5.825         4.175     inferred     Inferred_clkgroup_0
+demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+System                                                  100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+==========================================================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1491227175> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock  System                                  |  10.000      8.934  |  No paths    -      |  No paths    -      |  No paths    -    
+demo_CCC_0_FCCC|GL0_net_inferred_clock  demo_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      4.175  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: demo_CCC_0_FCCC|GL0_net_inferred_clock</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                                                                        Starting                                                                                Arrival          
+Instance                                                                                Reference                                  Type        Pin           Net                Time        Slack
+                                                                                        Clock                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     TPSRAM_0_RD[0]     1.968       4.175
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[2]     TPSRAM_0_RD[2]     1.968       4.234
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[1]     TPSRAM_0_RD[1]     1.968       4.262
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[4]     TPSRAM_0_RD[4]     1.968       4.268
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[3]     TPSRAM_0_RD[3]     1.968       4.322
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[6]     TPSRAM_0_RD[6]     1.968       4.344
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[5]     TPSRAM_0_RD[5]     1.968       4.355
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[7]     TPSRAM_0_RD[7]     1.968       4.431
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.next_addr[1]                               demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             next_addr[1]       0.094       4.708
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.next_addr[0]                               demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             next_addr[0]       0.094       4.716
+=================================================================================================================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                                                  Starting                                                                           Required          
+Instance                                                          Reference                                  Type     Pin     Net                    Time         Slack
+                                                                  Clock                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[0]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[1]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[2]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[3]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[4]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[5]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[6]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[7]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      expected_datae         9.707        4.175
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[7]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       expected_data_s[7]     9.778        4.708
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.next_addr[5]         demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       next_addr_6[5]         9.778        4.708
+=======================================================================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top.srr:srsfF:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\LSRAM_Workaround\synthesis\demo_top.srs:fp:85716:87588:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.707
+
+    - Propagation time:                      5.532
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.175
+
+    Number of logic level(s):                3
+    Starting point:                          Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0 / A_DOUT[0]
+    Ending point:                            Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[0] / EN
+    The start point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                      Pin           Pin               Arrival     No. of    
+Name                                                                                    Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     RAM1K18     A_DOUT[0]     Out     1.968     1.968       -         
+TPSRAM_0_RD[0]                                                                          Net         -             -       0.971     -           1         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE_0                    CFG4        D             In      -         2.939       -         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE_0                    CFG4        Y             Out     0.284     3.223       -         
+un1_i_TPSRAM_RD_sv_NE_0                                                                 Net         -             -       0.483     -           1         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE                      CFG4        D             In      -         3.706       -         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE                      CFG4        Y             Out     0.236     3.942       -         
+un1_i_TPSRAM_RD_sv_NE                                                                   Net         -             -       0.622     -           4         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE_RNI0N1L1             CFG3        B             In      -         4.564       -         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.un1_i_TPSRAM_RD_sv_NE_RNI0N1L1             CFG3        Y             Out     0.125     4.688       -         
+expected_datae                                                                          Net         -             -       0.843     -           8         
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.expected_data[0]                           SLE         EN            In      -         5.532       -         
+==========================================================================================================================================================
+Total path delay (propagation time + setup) of 5.825 is 2.906(49.9%) logic and 2.920(50.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for demo_top </a>
+
+Mapping to part: m2s090tsfbga484-1
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_075         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+TAMPER          1 use
+CFG2           33 uses
+CFG3           17 uses
+CFG4           37 uses
+
+Carry cells:
+ARI1            67 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            109 uses
+
+DSP Blocks:    0 of 84 (0%)
+
+I/O ports: 7
+I/O primitives: 6
+INBUF          1 use
+OUTBUF         4 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 3 of 8 (37%)
+
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 1 of 109 (0%)
+
+Total LUTs:    154
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  109 + 0 + 36 + 0 = 145;
+Total number of LUTs after P&R:  154 + 0 + 36 + 0 = 190;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 138MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Mon Apr 03 19:16:15 2017
+
+###########################################################]
+
+</pre></samp></body></html>

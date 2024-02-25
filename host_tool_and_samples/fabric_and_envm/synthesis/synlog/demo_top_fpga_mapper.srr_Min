@@ -1,0 +1,132 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 19 15:14:03 2015
+#
+
+
+Top view:               demo_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.315
+
+                                                        Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                          Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     243.4 MHz     10.000        4.108         5.892     inferred     Inferred_clkgroup_0
+demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+==========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock  demo_CCC_0_FCCC|GL0_net_inferred_clock  |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: demo_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                                      Arrival          
+Instance                                              Reference                                  Type     Pin     Net                               Time        Slack
+                                                      Clock                                                                                                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1           demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1           0.053       0.315
+demo_0.CORERESETP_0.POWER_ON_RESET_N_q1               demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1               0.053       0.315
+demo_0.CORERESETP_0.RESET_N_M2F_q1                    demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1                    0.053       0.315
+demo_0.CORERESETP_0.RESET_N_M2F_clk_base              demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_clk_base              0.066       0.341
+demo_0.CORERESETP_0.mss_ready_state                   demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_state                   0.066       0.413
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_clk_base     0.066       0.420
+demo_0.CORERESETP_0.mss_ready_select                  demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_select                  0.053       0.451
+BLINK_LED_0.counter[0]                                demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[0]                        0.066       0.546
+BLINK_LED_0.LED1                                      demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       LED4_c                            0.053       0.743
+BLINK_LED_0.LED2                                      demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       LED3_c                            0.053       0.780
+=====================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                                Required          
+Instance                                              Reference                                  Type     Pin     Net                         Time         Slack
+                                                      Clock                                                                                                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       FIC_2_APB_M_PRESET_N_q1     0.155        0.315
+demo_0.CORERESETP_0.POWER_ON_RESET_N_clk_base         demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       POWER_ON_RESET_N_q1         0.155        0.315
+demo_0.CORERESETP_0.RESET_N_M2F_clk_base              demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RESET_N_M2F_q1              0.155        0.315
+demo_0.CORERESETP_0.mss_ready_state                   demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      RESET_N_M2F_clk_base        0.205        0.341
+demo_0.CORERESETP_0.mss_ready_select                  demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      mss_ready_select4           0.205        0.413
+demo_0.CORERESETP_0.MSS_HPMS_READY_int                demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       MSS_HPMS_READY_int_4        0.155        0.451
+BLINK_LED_0.counter[0]                                demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       counter_4[0]                0.155        0.546
+BLINK_LED_0.LED1                                      demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LED1_0                      0.155        0.743
+BLINK_LED_0.LED2                                      demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LED2_0                      0.155        0.780
+BLINK_LED_0.counter[29]                               demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_1_cry_29_S      0.155        1.153
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.315
+
+    Number of logic level(s):                0
+    Starting point:                          demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 / Q
+    Ending point:                            demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base / D
+    The start point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1           SLE      Q        Out     0.053     0.053       -         
+FIC_2_APB_M_PRESET_N_q1                               Net      -        -       0.417     -           1         
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     SLE      D        In      -         0.470       -         
+================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

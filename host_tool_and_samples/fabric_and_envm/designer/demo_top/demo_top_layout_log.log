@@ -1,0 +1,57 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 6 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.0 
+Design: demo_top                        Started: Mon Apr 03 18:16:13 2017
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 2 seconds
+
+Placer completed successfully.
+
+Design: demo_top                        
+Finished: Mon Apr 03 18:16:36 2017
+Total CPU Time:     00:00:21            Total Elapsed Time: 00:00:23
+Total Memory Usage: 506.0 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\demo_topStarted: Mon Apr 03 18:16:40 2017
+
+Final stats: search run time 0.233854
+
+Router completed successfully.
+
+Design: F:\11.8\sf2_isp_using_uart_interface_demo_df\host_tool_and_samples\fabric_and_envm\designer\demo_top\demo_top
+Finished: Mon Apr 03 18:17:15 2017
+Total CPU Time:     00:00:33            Total Elapsed Time: 00:00:35
+Total Memory Usage: 2828.1 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 64   | 86184 | 0.07       |
+| DFF           | 43   | 86184 | 0.05       |
+| I/O Register  | 0    | 795   | 0.00       |
+| Logic Element | 69   | 86184 | 0.08       |
++---------------+------+-------+------------+
+

@@ -1,0 +1,134 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 19 16:27:17 2015
+#
+
+
+Top view:               demo_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.315
+
+                                                        Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                          Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     164.3 MHz     10.000        6.087         3.913     inferred     Inferred_clkgroup_0
+demo_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+System                                                  100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+==========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_CCC_0_FCCC|GL0_net_inferred_clock  System                                  |  0.000       0.733  |  No paths    -      |  No paths    -      |  No paths    -    
+demo_CCC_0_FCCC|GL0_net_inferred_clock  demo_CCC_0_FCCC|GL0_net_inferred_clock  |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: demo_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                      Starting                                                                                              Arrival          
+Instance                                                              Reference                                  Type     Pin     Net                                       Time        Slack
+                                                                      Clock                                                                                                                  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1                           demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1                   0.053       0.315
+demo_0.CORERESETP_0.POWER_ON_RESET_N_q1                               demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1                       0.053       0.315
+demo_0.CORERESETP_0.RESET_N_M2F_q1                                    demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1                            0.053       0.315
+demo_0.CORERESETP_0.RESET_N_M2F_clk_base                              demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_clk_base                      0.066       0.341
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[0]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[0]     0.053       0.362
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[1]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[1]     0.053       0.362
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[2]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[2]     0.053       0.362
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[3]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[3]     0.053       0.362
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[4]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[4]     0.053       0.362
+Dev_Restart_after_ISP_blk_0.Ram_intferface_0.o_TPSRAM_WADDR_sv[5]     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       Ram_intferface_0_o_TPSRAM_WADDR_sv[5]     0.053       0.362
+=============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                        Starting                                                                                                       Required          
+Instance                                                                                Reference                                  Type        Pin           Net                                       Time         Slack
+                                                                                        Clock                                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base                                       demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D             FIC_2_APB_M_PRESET_N_q1                   0.155        0.315
+demo_0.CORERESETP_0.POWER_ON_RESET_N_clk_base                                           demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D             POWER_ON_RESET_N_q1                       0.155        0.315
+demo_0.CORERESETP_0.RESET_N_M2F_clk_base                                                demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D             RESET_N_M2F_q1                            0.155        0.315
+demo_0.CORERESETP_0.mss_ready_state                                                     demo_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN            RESET_N_M2F_clk_base                      0.205        0.341
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[3]     Ram_intferface_0_o_TPSRAM_WADDR_sv[0]     0.371        0.362
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[4]     Ram_intferface_0_o_TPSRAM_WADDR_sv[1]     0.371        0.362
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[5]     Ram_intferface_0_o_TPSRAM_WADDR_sv[2]     0.371        0.362
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[6]     Ram_intferface_0_o_TPSRAM_WADDR_sv[3]     0.371        0.362
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[7]     Ram_intferface_0_o_TPSRAM_WADDR_sv[4]     0.371        0.362
+Dev_Restart_after_ISP_blk_0.TPSRAM_0.Dev_Restart_after_ISP_blk_TPSRAM_0_TPSRAM_R0C0     demo_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     B_ADDR[8]     Ram_intferface_0_o_TPSRAM_WADDR_sv[5]     0.371        0.362
+=========================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.315
+
+    Number of logic level(s):                0
+    Starting point:                          demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 / Q
+    Ending point:                            demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base / D
+    The start point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            demo_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1           SLE      Q        Out     0.053     0.053       -         
+FIC_2_APB_M_PRESET_N_q1                               Net      -        -       0.417     -           1         
+demo_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     SLE      D        In      -         0.470       -         
+================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
